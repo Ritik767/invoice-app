@@ -1,0 +1,33 @@
+/* @layer components{
+
+.sidebar-icon{
+    @apply relative flex items-center justify-center
+    h-12 w-12 mt-2 mb-2 mx-auto;
+}
+} */
+
+.productInput {
+    @apply flex flex-col space-y-2 text-[#DFE3FA]
+   }
+.productInput  input {
+    @apply  !px-4 !py-2 rounded-md shadow outline-none bg-[#252945] text-[#F8F8FB]
+   }
+ 
+select{
+    @apply  !px-4 !py-2 rounded-md shadow outline-none bg-[#252945] text-[#F8F8FB]
+}
+select option{
+    @apply  !px-4 !py-2 rounded-md shadow outline-none bg-[#252945] text-[#F8F8FB]
+}
+
+table {
+    @apply w-full rounded-md
+   }
+
+   table th {
+    @apply text-[#DFE3FA]
+   }
+
+   table th, table td {
+    @apply py-1  px-2 text-center
+   }
